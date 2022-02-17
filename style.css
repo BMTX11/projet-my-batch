@@ -31,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: "Poppins", sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -48,22 +49,19 @@ table {
 	border-spacing: 0;
 }
 
+img {
+    max-width: 100%;
+}
 
 @font-face {
     font-family: "Poppins";
-    src: url("fonts/poppins.woff2"), url("fonts/poppins.woff");
+    src: url("fonts/Poppins-Regular.woff2"), url("fonts/Poppins-Regular.woff");
   }
   
   @font-face {
     font-family: "Poppins";
-    src: url("fonts/poppins-bold.woff2"), url("fonts/poppins-bold.woff");
+    src: url("fonts/Poppins-Bold.woff2"), url("fonts/Poppins-Bold.woff");
     font-weight: bold;
-  }
-  
-  @font-face {
-    font-family: "Poppins";
-    src: url("fonts/poppins-italic.woff2"), url("fonts/poppins-italic.woff");
-    font-style: italic;
   }
   
 
@@ -323,4 +321,39 @@ footer {
     margin : 0 auto;
 }
 
-.
+
+.diete {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 18px 18px 0px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin : 0 auto;
+
+}
+
+.hebdomadaire {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 44px;
+    left: 65px;
+    top: 419px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #67CFD7;
+    margin : 0 auto;
+    margin-bottom: 10px;
+
+}
