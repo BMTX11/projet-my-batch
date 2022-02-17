@@ -93,13 +93,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
 
 li {
     list-style: none;
+    margin : 10px;
     padding: 15px;
-    margin: 10px;
+    
 }
 
 .profil {
@@ -122,7 +122,7 @@ section {
 
 .mybatch {
     width: 255px;
-    height: 90px;
+    height: 80px;
     left: 64px;
     top: 111px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -134,7 +134,8 @@ section {
     font-size: 12px;
     line-height: 27px;
     color: #2AEAB1;
-    margin: 50px;
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -145,90 +146,45 @@ h2 {
     text-align: center;
 }
 
+h5 {
+    font-size: 13px;
+}
 .jour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 69%;
+    
+}
+
+.journee {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.L {
-    width: 12px;
-    height: 12px;
-    color: white;
-    background: rgba(168, 177, 255, 0.6);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-}
 
-.M {
-width: 12px;
-height: 12px;
-color: white;
-background: rgba(168, 177, 255, 0.6);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 6px;
-}
-
-.ME {
-width: 12px;
-height: 12px;
-left: 194px;
-top: 207px;
-color: white;
-background: rgba(168, 177, 255, 0.6);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 6px;
-}
-
-.J {
-width: 12px;
-height: 12px;
-left: 259px;
-top: 207px;
-color: white;
-background: rgba(255, 0, 138, 0.55);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 6px;
-}
-
-.V {
-    width: 12px;
-    height: 12px;
-    left: 64px;
-    top: 272px;
-    color: white;
-    background: rgba(255, 0, 138, 0.55);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
-}
-
-.S {
-width: 12px;
-height: 12px;
-left: 129px;
-top: 272px;
-color: white;
-background: rgba(198, 198, 198, 0.6);
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 6px;
-}
-
-.D {
+.change {
     width: 12px;
     height: 12px;
     left: 194px;
     top: 272px;
-    color: white;
-    background: rgba(198, 198, 198, 0.6);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
+
 }
 
-.change {
-width: 50px;
-height: 50px;
-left: 259px;
-top: 272px;
+.container_day {
+width: 60px;
+height: 60px;
+color: white;
+background: rgba(168, 177, 255, 0.6);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+margin : 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
@@ -236,12 +192,14 @@ top: 272px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    padding: 15px;
     
 }
 
 .monfrigo {
     width: 82px;
-    height: 82px;
+    height: 90px;
     left: 65px;
     top: 474px;
     border: 4px solid #FFFFFF;
@@ -250,13 +208,9 @@ top: 272px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin:1px;
     justify-content: space-evenly;
+    font-size: 0.70rem;
 }
 
-.frigo {
-    width: 10px;
-    height: 10px;
-
-}
 
 .option {
     align-items: center;
@@ -280,6 +234,7 @@ top: 272px;
     line-height: 27px;
     color: #67CFD7;
     margin : 0 auto;
+    margin-bottom: 10px;
 }
 
 .options {
@@ -290,7 +245,7 @@ top: 272px;
 
 .meslistes {
 width: 82px;
-height: 82px;
+height: 90px;
 left: 149px;
 top: 474px;
 border: 4px solid #FFFFFF;
@@ -299,11 +254,12 @@ border-radius: 0px 0px 15px 15px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 margin : 1px;
 justify-content: space-evenly;
+font-size: 0.70rem;
 }
 
 .magasins {
 width: 82px;
-height: 82px;
+height: 90px;
 left: 233px;
 top: 474px;
 border: 4px solid #FFFFFF;
@@ -312,13 +268,15 @@ border-radius: 0px 0px 15px 15px;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 margin: 1px;
 justify-content: space-evenly;
+font-size: 0.70rem;
 }
 
 footer {
     display: flex;
     padding: 10px;
-    margin: 10px;
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -363,5 +321,6 @@ footer {
     line-height: 27px;
     color: #67CFD7;
     margin : 0 auto;
-
 }
+
+.

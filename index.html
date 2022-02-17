@@ -39,37 +39,18 @@
         <h2> Menu semaine 15</h2>
     </div>
 
-    <div class="jour">
-      <li class="L"> L</li> 
-      <li class="M">  M </li>
-      <li class="ME"> M </li>
-      <li class="J"> J </li>
-    </div>
 
-    <div class="jour">
-      <li class="V">  V </li>
-      <li class="S">  S </li>
-      <li class="D">  D </li>
-      <li class="change"> <svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <g filter="url(#filter0_d_263_96)">
-      <rect x="5" y="1" width="58" height="58" rx="5" stroke="white" stroke-width="2" shape-rendering="crispEdges"/>
-      </g>
-      <path d="M43.6924 15.717L48.2814 20.3038L43.6924 15.717ZM46.6434 11.6761L34.2349 24.0846C33.5937 24.7249 33.1565 25.5406 32.9782 26.429L31.832 32.1663L37.5694 31.018C38.4577 30.8403 39.2724 30.4048 39.9137 29.7635L52.3222 17.355C52.6951 16.9821 52.9909 16.5394 53.1927 16.0522C53.3945 15.565 53.4983 15.0429 53.4983 14.5155C53.4983 13.9882 53.3945 13.466 53.1927 12.9789C52.9909 12.4917 52.6951 12.049 52.3222 11.6761C51.9493 11.3032 51.5067 11.0075 51.0195 10.8057C50.5323 10.6039 50.0101 10.5 49.4828 10.5C48.9555 10.5 48.4333 10.6039 47.9461 10.8057C47.4589 11.0075 47.0162 11.3032 46.6434 11.6761V11.6761Z" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <path d="M49.166 36.4997V42.9997C49.166 44.1489 48.7095 45.2511 47.8968 46.0638C47.0842 46.8765 45.982 47.333 44.8327 47.333H20.9993C19.8501 47.333 18.7479 46.8765 17.9352 46.0638C17.1226 45.2511 16.666 44.1489 16.666 42.9997V19.1663C16.666 18.0171 17.1226 16.9149 17.9352 16.1022C18.7479 15.2896 19.8501 14.833 20.9993 14.833H27.4993" stroke="#F9F9F9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      <defs>
-      <filter id="filter0_d_263_96" x="0" y="0" width="68" height="68" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
-      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-      <feOffset dy="4"/>
-      <feGaussianBlur stdDeviation="2"/>
-      <feComposite in2="hardAlpha" operator="out"/>
-      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_263_96"/>
-      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_263_96" result="shape"/>
-      </filter>
-      </defs>
-      </svg></li>
-    </div>
+
+    <ul class="jour">
+      <li class="container_day"> L</li> 
+      <li class="container_day">  M </li>
+      <li class="container_day"> M </li>
+      <li class="container_day"> J </li>
+      <li class="container_day">  V </li>
+      <li class="container_day">  S </li>
+      <li class="container_day">  D </li>
+      <li class="container_day"> ch </li>
+    </ul>
 
   </div>
 
@@ -91,7 +72,7 @@
 
         <div class="options">
       <ul>
-        <li class="monfrigo">MON FRIGO <svg class="frigo" width="62" height="62" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <li class="monfrigo"> MON FRIGO <svg class width="52" height="52" viewBox="0 0 62 62" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M18.0827 5.16699H43.916C45.2863 5.16699 46.6005 5.71134 47.5694 6.68027C48.5383 7.64921 49.0827 8.96337 49.0827 10.3337V23.2503H12.916V10.3337C12.916 8.96337 13.4604 7.64921 14.4293 6.68027C15.3982 5.71134 16.7124 5.16699 18.0827 5.16699ZM49.0827 49.0837C49.0827 50.4539 48.5383 51.7681 47.5694 52.737C46.6005 53.706 45.2863 54.2503 43.916 54.2503V56.8337H38.7494V54.2503H23.2494V56.8337H18.0827V54.2503C16.7124 54.2503 15.3982 53.706 14.4293 52.737C13.4604 51.7681 12.916 50.4539 12.916 49.0837V25.8337H49.0827V49.0837ZM20.666 12.917V18.0837H25.8327V12.917H20.666ZM20.666 31.0003V38.7503H25.8327V31.0003H20.666Z" fill="#F9F9F9"/>
             </svg> </li>
         <li class="meslistes">MES LISTES <svg width="58" height="52" viewBox="0 0 58 52" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -116,18 +97,22 @@
     <path d="M17 4.83744L3.77778 15.4152V30.2222H13.2222V22.6667H20.7778V30.2222H30.2222V16.3238C30.2223 16.0405 30.1587 15.7608 30.0361 15.5055C29.9135 15.2501 29.735 15.0256 29.5139 14.8486L17 4.83744ZM17 0L31.8731 11.9C32.5363 12.4305 33.0718 13.1034 33.44 13.8688C33.8081 14.6342 33.9995 15.4726 34 16.3219V30.2222C34 31.2241 33.602 32.185 32.8935 32.8935C32.185 33.602 31.2241 34 30.2222 34H3.77778C2.77585 34 1.81496 33.602 1.10649 32.8935C0.398015 32.185 0 31.2241 0 30.2222V15.4152C7.06401e-05 14.849 0.127422 14.29 0.372637 13.7797C0.617851 13.2693 0.974657 12.8206 1.41667 12.4667L17 0Z" fill="#F9F9F9"/>
     </svg>
 
-    <svg class="article" width="107" height="59" viewBox="0 0 107 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M67.6667 16.8333V43.6667H40.8333V16.8333H67.6667ZM67.6667 13H40.8333C38.725 13 37 14.725 37 16.8333V43.6667C37 45.775 38.725 47.5 40.8333 47.5H67.6667C69.775 47.5 71.5 45.775 71.5 43.6667V16.8333C71.5 14.725 69.775 13 67.6667 13Z" fill="#F9F9F9"/>
-        <path d="M58.0827 39.8337H44.666V36.0003H58.0827V39.8337ZM63.8327 32.167H44.666V28.3337H63.8327V32.167ZM63.8327 24.5003H44.666V20.667H63.8327V24.5003Z" fill="#F9F9F9"/>
+    <svg class="article" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M34.8333 9.16667V34.8333H9.16667V9.16667H34.8333ZM34.8333 5.5H9.16667C7.15 5.5 5.5 7.15 5.5 9.16667V34.8333C5.5 36.85 7.15 38.5 9.16667 38.5H34.8333C36.85 38.5 38.5 36.85 38.5 34.8333V9.16667C38.5 7.15 36.85 5.5 34.8333 5.5Z" fill="white"/>
+        <path d="M25.6667 31.1667H12.8333V27.5H25.6667V31.1667ZM31.1667 23.8333H12.8333V20.1667H31.1667V23.8333ZM31.1667 16.5H12.8333V12.8333H31.1667V16.5Z" fill="white"/>
         </svg>
         
     </footer>
 </body>
 
+
 <body>
     <header>
 
         <nav> 
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.07164 12.1867C-0.357212 11.4097 -0.357212 9.53371 1.07164 8.75671L16.6554 0.288712C18.1273 -0.511288 20 0.448711 20 2.00371V18.9397C20 20.4937 18.1273 21.4537 16.6554 20.6547L1.07164 12.1867Z" fill="#F9F9F9"/>
+                </svg>
            <p>retour</p>
 
            <ul>
