@@ -1,0 +1,367 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/poppins.woff2"), url("fonts/poppins.woff");
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("fonts/poppins-bold.woff2"), url("fonts/poppins-bold.woff");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "Poppins";
+    src: url("fonts/poppins-italic.woff2"), url("fonts/poppins-italic.woff");
+    font-style: italic;
+  }
+  
+
+header {
+   
+}
+
+body {
+    background: linear-gradient(180deg, #12F4A3 0%, #A8B1FF 100%);
+    width: 100vw;
+    height: 100vh;
+    justify-content:center ;
+    align-items: center;
+}
+
+nav {
+    color: white ; 
+    border: white;
+}
+.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+li {
+    list-style: none;
+    padding: 15px;
+    margin: 10px;
+}
+
+.profil {
+    width: 39px;
+    height: 39px;
+    left: 132px;
+    top: 22px;
+}
+
+.parametre {
+    left: 54.13%;
+    right: 34.4%;
+    top: 3.08%;
+    bottom: 90.9%;
+}
+
+section {
+    color: white;
+}
+
+.mybatch {
+    width: 255px;
+    height: 90px;
+    left: 64px;
+    top: 111px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 15px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 27px;
+    color: #2AEAB1;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center ;
+}
+
+h2 {
+    text-align: center;
+}
+
+.jour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.L {
+    width: 12px;
+    height: 12px;
+    color: white;
+    background: rgba(168, 177, 255, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.M {
+width: 12px;
+height: 12px;
+color: white;
+background: rgba(168, 177, 255, 0.6);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+.ME {
+width: 12px;
+height: 12px;
+left: 194px;
+top: 207px;
+color: white;
+background: rgba(168, 177, 255, 0.6);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+.J {
+width: 12px;
+height: 12px;
+left: 259px;
+top: 207px;
+color: white;
+background: rgba(255, 0, 138, 0.55);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+.V {
+    width: 12px;
+    height: 12px;
+    left: 64px;
+    top: 272px;
+    color: white;
+    background: rgba(255, 0, 138, 0.55);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.S {
+width: 12px;
+height: 12px;
+left: 129px;
+top: 272px;
+color: white;
+background: rgba(198, 198, 198, 0.6);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 6px;
+}
+
+.D {
+    width: 12px;
+    height: 12px;
+    left: 194px;
+    top: 272px;
+    color: white;
+    background: rgba(198, 198, 198, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.change {
+width: 50px;
+height: 50px;
+left: 259px;
+top: 272px;
+
+}
+
+.programme {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.monfrigo {
+    width: 82px;
+    height: 82px;
+    left: 65px;
+    top: 474px;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 0px 0px 15px 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin:1px;
+    justify-content: space-evenly;
+}
+
+.frigo {
+    width: 10px;
+    height: 10px;
+
+}
+
+.option {
+    align-items: center;
+    justify-content: center;
+}
+
+.ingredients {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 44px;
+    left: 65px;
+    top: 419px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 18px 18px 0px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #67CFD7;
+    margin : 0 auto;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meslistes {
+width: 82px;
+height: 82px;
+left: 149px;
+top: 474px;
+border: 4px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 0px 0px 15px 15px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+margin : 1px;
+justify-content: space-evenly;
+}
+
+.magasins {
+width: 82px;
+height: 82px;
+left: 233px;
+top: 474px;
+border: 4px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 0px 0px 15px 15px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+margin: 1px;
+justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.suivi {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.home {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+.article {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+}
+
+@media (min-width: 400px) {
+    ul {
+        flex-direction: row;
+    }
+}
+
+.repas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 250px;
+    height: 44px;
+    left: 65px;
+    top: 419px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 18px 18px 0px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #67CFD7;
+    margin : 0 auto;
+
+}
