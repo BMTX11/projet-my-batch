@@ -78,6 +78,9 @@ header {
    
 }
 
+.nav_desktop {
+    display: none;
+}
 
 nav {
     color: white ; 
@@ -87,6 +90,10 @@ nav {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
+}
+
+.semaine {
+    display: none;
 }
 
 ul {
@@ -191,6 +198,10 @@ align-items: center;
 
 }
 
+.container_day_bis {
+    display: none;
+}
+
 .programme {
     display: flex;
     align-items: center;
@@ -203,8 +214,12 @@ align-items: center;
     
 }
 
+.programme_bis {
+    display: none;
+}
+
 .monfrigo {
-    width: 82px;
+    width: 100px;
     height: 90px;
     left: 65px;
     top: 474px;
@@ -217,6 +232,9 @@ align-items: center;
     font-size: 0.70rem;
 }
 
+.monfrigo_bis {
+    display: none;
+}
 
 .option {
     align-items: center;
@@ -241,6 +259,10 @@ align-items: center;
     margin-bottom: 10px;
 }
 
+.ingredients_bis {
+    display: none;
+}
+
 .options {
     display: flex;
     align-items: center;
@@ -259,6 +281,10 @@ justify-content: space-evenly;
 font-size: 0.70rem;
 }
 
+.meslistes_bis {
+    display: none;
+}
+
 .magasins {
 width: 82px;
 height: 90px;
@@ -269,6 +295,10 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 margin: 1px;
 justify-content: space-evenly;
 font-size: 0.70rem;
+}
+
+.magasins_bis {
+    display: none;
 }
 
 .chariot {
@@ -301,11 +331,6 @@ footer {
     margin: 20px;
 }
 
-@media (min-width: 400px) {
-    ul {
-        flex-direction: row;
-    }
-}
 
 .retour {
     margin-right: 100px;
@@ -412,7 +437,6 @@ footer {
     line-height: 27px;
     color: rgba(41, 235, 177, 1);
     margin : 0 auto;
-   
 }
 
 .recette_jour {
@@ -447,4 +471,201 @@ footer {
     box-shadow: inset 0px 0px 60px rgba(238, 238, 238, 0.25);
     backdrop-filter: blur(12px);
     border-radius: 15px 15px 15px 15px;
+}
+
+.logo {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    ul {
+        flex-direction: row;
+    }
+
+    .profil {
+        display: none;
+
+    }
+
+    .parametre {
+        display: none;
+    }
+
+    .nav_desktop {
+        display: contents;
+        font-weight: bold;
+        display: flex;   
+    }
+
+    .suivi {
+        display: none;
+    }
+     
+    .home {
+        display: none;
+    }
+
+    .article {
+        display: none;
+    }
+    
+    .mybatch {
+            display: none;
+    }
+
+    .semaine {
+        margin: 50px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 344px;
+        height: 44px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background: #F9F9F9;
+        border-radius: 15px 15px 15px 15px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+        color: rgba(41, 235, 177, 1);
+
+    }
+    .container_day {
+        display: none;
+    }
+    
+    .container_day_bis {
+        margin : 40px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100px;
+        height: 44px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        background: #F9F9F9;
+        border-radius: 15px 15px 15px 15px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 27px;
+        color: rgba(41, 235, 177, 1);
+
+    }
+
+    .programme {
+        display: none;
+    }
+
+    .programme_bis {
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin: 25px;
+    padding: 7px;
+    border-radius: 15px 15px 15px 15px;
+    box-sizing: content-box; 
+
+    }
+  
+    .plus_bis {
+        margin: 1px;
+    }
+
+
+    .ingredients{
+        display: none;
+    }
+   .ingredients_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 340px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #67CFD7;
+    margin : 50px;
+    margin-bottom: 10px;
+
+   }
+
+   .logo {
+       display: flex;
+   }
+
+   .monfrigo {
+       display: none;
+   }
+
+.monfrigo_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #67CFD7;
+    margin : 50px;
+    margin-bottom: 10px;
+    
+}
+
+.meslistes {
+    display: none;
+}
+
+.meslistes_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #67CFD7;
+    margin : 50px;
+    margin-bottom: 10px;
+    
+}
+
+.magasins {
+    display: none;
+}
+
+.magasins_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 150px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #67CFD7;
+    margin : 50px;
+    margin-bottom: 10px;
+}
+
 }
