@@ -202,6 +202,10 @@ align-items: center;
     display: none;
 }
 
+.modif {
+    display: none;
+}
+
 .programme {
     display: flex;
     align-items: center;
@@ -219,7 +223,7 @@ align-items: center;
 }
 
 .monfrigo {
-    width: 100px;
+    width: 85px;
     height: 90px;
     left: 65px;
     top: 474px;
@@ -262,6 +266,7 @@ align-items: center;
 .ingredients_bis {
     display: none;
 }
+
 
 .options {
     display: flex;
@@ -355,8 +360,14 @@ footer {
     margin : 0 auto;
 }
 
+.repas_bis {
+    display: none;
+}
+
+
 
 .diete {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -377,6 +388,10 @@ footer {
 
 }
 
+.diete_bis {
+    display: none;
+}
+
 .plus {
     display: flex;
     align-items: center;
@@ -391,6 +406,11 @@ footer {
 
 }
 
+.plus_biss {
+    display: none;
+
+}
+
 .ou {
     display: flex;
     align-items: center;
@@ -398,6 +418,7 @@ footer {
     padding: 20px;
     margin: 20px;
 }
+
 
 
 .hebdomadaire {
@@ -420,6 +441,10 @@ footer {
 
 }
 
+.hebdomadaire_bis {
+    display: none;
+}
+
 .vegan {
     display: flex;
     align-items: center;
@@ -437,6 +462,10 @@ footer {
     line-height: 27px;
     color: rgba(41, 235, 177, 1);
     margin : 0 auto;
+}
+
+.vegan_bis {
+    display: none;
 }
 
 .recette_jour {
@@ -457,6 +486,10 @@ footer {
 
 }
 
+.recette_jour_bis {
+    display: none;
+}
+
 .recette {
     display: flex;
     align-items: center;
@@ -471,6 +504,10 @@ footer {
     box-shadow: inset 0px 0px 60px rgba(238, 238, 238, 0.25);
     backdrop-filter: blur(12px);
     border-radius: 15px 15px 15px 15px;
+}
+
+.recette_bis {
+    display: none;
 }
 
 .logo {
@@ -494,7 +531,8 @@ footer {
     .nav_desktop {
         display: contents;
         font-weight: bold;
-        display: flex;   
+        display: flex;  
+        border-bottom: 2px solid white; 
     }
 
     .suivi {
@@ -554,6 +592,14 @@ footer {
 
     }
 
+    .modif {
+        display: flex;
+    }
+
+    .plus_bis {
+        margin: 1px;
+    }
+
     .programme {
         display: none;
     }
@@ -569,14 +615,11 @@ footer {
 
     }
   
-    .plus_bis {
-        margin: 1px;
-    }
-
 
     .ingredients{
         display: none;
     }
+
    .ingredients_bis {
     display: flex;
     align-items: center;
@@ -604,7 +647,7 @@ footer {
        display: none;
    }
 
-.monfrigo_bis {
+   .monfrigo_bis {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -646,6 +689,7 @@ footer {
     
 }
 
+
 .magasins {
     display: none;
 }
@@ -667,5 +711,175 @@ footer {
     margin : 50px;
     margin-bottom: 10px;
 }
+
+.retour {
+    display: none;
+}
+
+.repas{
+    display: none;
+}
+
+.repas_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 340px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(41, 235, 177, 1);
+    margin : 50px;
+    margin-bottom: 10px;
+    
+}
+
+.diete {
+    display: none;
+}
+
+.diete_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: solid #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 12px;
+    color: white;
+    margin : 50px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 100px;
+    height: 75px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset 0px 0px 60px rgba(238, 238, 238, 0.25);
+    backdrop-filter: blur(12px);
+    font-weight: bold;
+
+}
+
+.plus {
+    display: none;
+}
+
+.plus_biss {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: solid #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-size: 12px;
+    color: white;
+    margin : 50px;
+    margin-top: 50px;
+    padding: 20px;
+    width: 100px;
+    height: 75px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset 0px 0px 60px rgba(238, 238, 238, 0.25);
+    backdrop-filter: blur(12px);
+    font-weight: bold;
+    
+}
+
+.ou {
+    display: none;
+}
+
+
+.hebdomadaire {
+    display: none;
+}
+
+.hebdomadaire_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 340px;
+    height: 44px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #67CFD7;
+    margin : 50px;
+    margin-bottom: 10px;
+
+}
+
+.vegan {
+    display: none;
+}
+
+.vegan_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 344px;
+    height: 67.42px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 15px 15px 15px 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(41, 235, 177, 1);
+    margin : 0 auto;
+    margin-top: 50px;
+}
+
+.recette_jour {
+    display: none;
+}
+
+.recette_jour_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    border-radius: 18px 18px 0px 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(41, 235, 177, 1);
+    margin : 0 auto;
+    border-radius: 15px 15px 15px 15px;
+    margin: 12px;
+
+}
+
+.recette {
+    display: none;
+}
+
+.recette_bis {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #F9F9F9;
+    font-size: 12px;
+    color: white;
+    margin : 10px;
+    margin-top: 10px ;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset 0px 0px 60px rgba(238, 238, 238, 0.25);
+    backdrop-filter: blur(12px);
+    border-radius: 15px 15px 15px 15px;
+}
+
 
 }
