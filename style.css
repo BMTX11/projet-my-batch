@@ -779,11 +779,10 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    
     font-size: 12px;
     color: white;
     margin : 50px;
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 20px;
     width: 100px;
     height: 75px;
@@ -815,7 +814,7 @@ footer {
     line-height: 27px;
     color: #67CFD7;
     margin : 50px;
-    margin-top: 300px;
+    margin-top: 200px;
     margin-bottom: 100px;
 
 }
@@ -853,15 +852,14 @@ footer {
     justify-content: space-around;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     background: #F9F9F9;
-    border-radius: 18px 18px 0px 0px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 27px;
     color: rgba(41, 235, 177, 1);
-    margin : 0 auto;
     border-radius: 15px 15px 15px 15px;
-    margin: 12px;
+    margin: 5px;
+    height: 60px;
 
 }
 
